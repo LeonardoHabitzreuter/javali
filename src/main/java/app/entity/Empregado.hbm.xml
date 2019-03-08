@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 28/02/2019 19:22:47 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+ <class name="ifc.aulaHibernate.entity.Empregado" table="EMPREGADO">
+  <id name="id" type="int">
+   <column name="ID"/>
+   <generator class="assigned"/>
+  </id>
+  <property access="field" generated="never" lazy="false" length="50"
+   name="nome" type="java.lang.String">
+   <column name="NOME"/>
+  </property>
+  <property access="field" generated="never" lazy="false" length="30"
+   name="cargo" type="java.lang.String">
+   <column name="CARGO"/>
+  </property>
+  <property access="field" generated="never" lazy="false"
+   name="data_contratacao" type="java.util.Date">
+   <column name="DATA_CONTRATACAO"/>
+  </property>
+  <property access="field" generated="never" lazy="false" name="salario" type="java.lang.Float">
+   <column name="SALARIO"/>
+  </property>
+ </class>
+</hibernate-mapping>

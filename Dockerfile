@@ -1,4 +1,4 @@
-FROM mysql
+FROM mysql:8.0.15
 LABEL maintainer="Leonardo Habitzreuter <leo.habitzreuter@gmail.com>"
 EXPOSE 3306
 ENV MYSQL_ROOT_PASSWORD=rootpass
