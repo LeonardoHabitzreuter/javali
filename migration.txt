@@ -1,0 +1,6 @@
+CREATE TABLE cliente (
+    id int,
+    nome            varchar(80),
+    cpf            varchar(11),
+    senha            varchar(80)
+);

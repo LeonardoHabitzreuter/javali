@@ -18,15 +18,15 @@ docker image build -t javali/database .
 
 ### Start database
 ```
-docker container run -d javali/database db
+bash db.sh
 ```
 
 ### Build the project
 ```
-mvn package
+mvn install
 ```
 
 ### Run main class
 ```
-java -cp target/javali-1.0-SNAPSHOT.jar app.App
+mvn jetty:run
 ```
