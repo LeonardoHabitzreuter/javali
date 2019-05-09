@@ -30,3 +30,14 @@ mvn install
 ```
 mvn jetty:run
 ```
+
+### Run migrations
+```
+psql prova root
+```
+```
+use prova
+```
+```
+\d cliente
+```

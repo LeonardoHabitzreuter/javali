@@ -24,3 +24,7 @@ hs_err_pid*
 
 # dist
 target/
+dist
+
+# dependencies
+node_modules
