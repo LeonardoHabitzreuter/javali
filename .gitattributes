@@ -1,1 +1,3 @@
 src/main/webapp/resources/* linguist-vendored
+src/main/webapp/resources/js/* linguist-vendored
+src/main/webapp/resources/css/* linguist-vendored
