@@ -41,8 +41,3 @@ mvn install
 ```
 mvn jetty:run
 ```
-
-### Run frontend
-```
-cd frontend && npm start
-```
